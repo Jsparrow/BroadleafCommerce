@@ -237,7 +237,12 @@
                 </plugin>
             </plugins>
         </pluginManagement>
-        <plugins>
+	<plugins>
+		<plugin>
+			<groupId>eu.jsparrow</groupId>
+			<artifactId>jsparrow-maven-plugin</artifactId>
+			<version>3.8.0</version>
+		</plugin>
             <plugin>
                 <groupId>org.codehaus.mojo</groupId>
                 <artifactId>animal-sniffer-maven-plugin</artifactId>
